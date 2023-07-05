@@ -4,11 +4,11 @@ A **C# application** to manage a electronics store.
 ---
 
 ## PREREQUISITE
-> - **Visual Studio** ( preferably > 2019 )
-    >   - **.NET desktop development** workload
-    >   - **SQL** related Individual components
-    >   - **LINQ to SQL** Individual components
-> - **SQL Server** ( preferably > 2019 )
+- **Visual Studio** ( preferably > 2019 )
+    - **.NET desktop development** workload
+    - **SQL** related Individual components
+    - **LINQ to SQL** Individual components
+- **SQL Server** ( preferably > 2019 )
 
 ---
 
