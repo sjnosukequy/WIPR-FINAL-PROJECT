@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DIENTUModelStoreContainer" CdmEntityContainer="DIENTUEntities1">
+    <EntitySetMapping Name="CungCaps">
+      <EntityTypeMapping TypeName="DIENTUModel.CungCap">
+        <MappingFragment StoreEntitySet="CungCap">
+          <ScalarProperty Name="NhaSX" ColumnName="NhaSX" />
+          <ScalarProperty Name="QuanLy" ColumnName="QuanLy" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GioHangs">
+      <EntityTypeMapping TypeName="DIENTUModel.GioHang">
+        <MappingFragment StoreEntitySet="GioHang">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="SL" ColumnName="SL" />
+          <ScalarProperty Name="SumAll" ColumnName="SumAll" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Helps">
+      <EntityTypeMapping TypeName="DIENTUModel.Help">
+        <MappingFragment StoreEntitySet="Help">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="LinhVuc" ColumnName="LinhVuc" />
+          <ScalarProperty Name="INFO" ColumnName="INFO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NguoiDungs">
+      <EntityTypeMapping TypeName="DIENTUModel.NguoiDung">
+        <MappingFragment StoreEntitySet="NguoiDung">
+          <ScalarProperty Name="Ho_Ten" ColumnName="Ho_Ten" />
+          <ScalarProperty Name="User_Name" ColumnName="User_Name" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Dia_Chi" ColumnName="Dia_Chi" />
+          <ScalarProperty Name="Admin" ColumnName="Admin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NhanViens">
+      <EntityTypeMapping TypeName="DIENTUModel.NhanVien">
+        <MappingFragment StoreEntitySet="NhanVien">
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="TenNV" ColumnName="TenNV" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="Roles" ColumnName="Roles" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhongBans">
+      <EntityTypeMapping TypeName="DIENTUModel.PhongBan">
+        <MappingFragment StoreEntitySet="PhongBan">
+          <ScalarProperty Name="TenPB" ColumnName="TenPB" />
+          <ScalarProperty Name="MaNVQLY" ColumnName="MaNVQLY" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SanPhams">
+      <EntityTypeMapping TypeName="DIENTUModel.SanPham">
+        <MappingFragment StoreEntitySet="SanPham">
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+          <ScalarProperty Name="Spec" ColumnName="Spec" />
+          <ScalarProperty Name="NhaSX" ColumnName="NhaSX" />
+          <ScalarProperty Name="SLKho" ColumnName="SLKho" />
+          <ScalarProperty Name="GiaTien" ColumnName="GiaTien" />
+          <ScalarProperty Name="GiamGia" ColumnName="GiamGia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

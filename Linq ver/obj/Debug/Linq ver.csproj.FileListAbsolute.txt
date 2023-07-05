@@ -1,0 +1,79 @@
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\ADO ver.exe.config
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\ADO ver.exe
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\ADO ver.pdb
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\EntityFramework.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\EntityFramework.SqlServer.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\EnvDTE.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\stdole.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\EntityFramework.xml
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\EntityFramework.SqlServer.xml
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\project hoc\Win Programing\FINAL\Linq ver\obj\Debug\Linq ver.csproj.AssemblyReference.cache
+D:\project hoc\Win Programing\FINAL\Linq ver\obj\Debug\Linq ver.csproj.SuggestedBindingRedirects.cache
+D:\project hoc\Win Programing\FINAL\Linq ver\obj\Debug\ADO_ver.UI_Layers.CartForm.resources
+D:\project hoc\Win Programing\FINAL\Linq ver\obj\Debug\ADO_ver.UI_Layers.AboutFrom.resources
+D:\project hoc\Win Programing\FINAL\Linq ver\obj\Debug\ADO_ver.UI_Layers.CompanyForm.resources
+D:\project hoc\Win Programing\FINAL\Linq ver\obj\Debug\ADO_ver.UI_Layers.EditProForm.resources
+D:\project hoc\Win Programing\FINAL\Linq ver\obj\Debug\ADO_ver.UI_Layers.Help2Form.resources
+D:\project hoc\Win Programing\FINAL\Linq ver\obj\Debug\ADO_ver.UI_Layers.HelpForm.resources
+D:\project hoc\Win Programing\FINAL\Linq ver\obj\Debug\ADO_ver.UI_Layers.ReciptForm.resources
+D:\project hoc\Win Programing\FINAL\Linq ver\obj\Debug\ADO_ver.UI_Layers.SignForm.resources
+D:\project hoc\Win Programing\FINAL\Linq ver\obj\Debug\ADO_ver.UI_Layers.LoginForm.resources
+D:\project hoc\Win Programing\FINAL\Linq ver\obj\Debug\ADO_ver.MainForm.resources
+D:\project hoc\Win Programing\FINAL\Linq ver\obj\Debug\ADO_ver.Properties.Resources.resources
+D:\project hoc\Win Programing\FINAL\Linq ver\obj\Debug\ADO_ver.UI_Layers.UserForm.resources
+D:\project hoc\Win Programing\FINAL\Linq ver\obj\Debug\Linq ver.csproj.GenerateResource.cache
+D:\project hoc\Win Programing\FINAL\Linq ver\obj\Debug\Linq ver.csproj.CoreCompileInputs.cache
+D:\project hoc\Win Programing\FINAL\Linq ver\obj\Debug\Linq ver.csproj.CopyComplete
+D:\project hoc\Win Programing\FINAL\Linq ver\obj\Debug\ADO ver.exe
+D:\project hoc\Win Programing\FINAL\Linq ver\obj\Debug\ADO ver.pdb
+D:\project hoc\Win Programing\FINAL\Linq ver\obj\Debug\ADO_ver.UI_Layers.CartForm2.resources

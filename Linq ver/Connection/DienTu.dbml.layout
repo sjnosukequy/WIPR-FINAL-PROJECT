@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 9.5" name="DienTu">
+  <DataContextMoniker Name="/DienTuDataContext" />
+  <nestedChildShapes>
+    <classShape Id="6d731dbd-7aa7-4164-9984-67bc1f0edfd3" absoluteBounds="0.5, 7.375, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/DienTuDataContext/CungCap" />
+      <nestedChildShapes>
+        <elementListCompartment Id="417bd92a-11bc-47d1-9373-384a6c6fffba" absoluteBounds="0.51500000000000012, 7.8350000000000009, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f14f7996-0ca1-434a-a81b-3145204698c5" absoluteBounds="3, 6.875, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/DienTuDataContext/SanPham" />
+      <nestedChildShapes>
+        <elementListCompartment Id="722ee6bf-b61e-4fc2-9a3a-fd1db9e1794e" absoluteBounds="3.015, 7.3350000000000009, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f3946d2c-47e7-4150-a2e7-b5d9f65bd476" absoluteBounds="6, 6.625, 2, 1.5785953776041675">
+      <DataClassMoniker Name="/DienTuDataContext/GioHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="74c84718-7851-4d07-8ad4-08f6820e8577" absoluteBounds="6.0150000000000006, 7.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="00d91837-bc5e-4a5e-aec3-99a37be7022f" absoluteBounds="3.5, 1.125, 2, 1.3862939453125003">
+      <DataClassMoniker Name="/DienTuDataContext/Help" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ec7a02c7-4f43-4f40-a254-e88ea1a9e01a" absoluteBounds="3.515, 1.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bdb77efd-7de4-44d2-b5f2-66b7b6cb5b74" absoluteBounds="0.5, 4.5, 2, 1.7708968098958326">
+      <DataClassMoniker Name="/DienTuDataContext/NguoiDung" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2f575c1d-8175-4d05-b84f-238ab874d977" absoluteBounds="0.515, 4.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b3a55f49-7b0f-4542-877c-febeaad88d26" absoluteBounds="4.75, 3.125, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DienTuDataContext/NhanVien" />
+      <nestedChildShapes>
+        <elementListCompartment Id="231ab198-ecfc-4e9d-85fd-4f2dca15c4d1" absoluteBounds="4.7650000000000006, 3.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="42b78b5c-5b5b-4d2f-978e-6913d8a32d06" absoluteBounds="0.75, 2.25, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/DienTuDataContext/PhongBan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5e0cd58b-da24-4199-aff9-67bc0b66574c" absoluteBounds="0.765, 2.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 8.06814697265625); (3 : 8.06814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DienTuDataContext/CungCap/CungCap_SanPham" />
+      <nodes>
+        <classShapeMoniker Id="6d731dbd-7aa7-4164-9984-67bc1f0edfd3" />
+        <classShapeMoniker Id="f14f7996-0ca1-434a-a81b-3145204698c5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5 : 7.53929768880208); (6 : 7.53929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DienTuDataContext/SanPham/SanPham_GioHang" />
+      <nodes>
+        <classShapeMoniker Id="f14f7996-0ca1-434a-a81b-3145204698c5" />
+        <classShapeMoniker Id="f3946d2c-47e7-4150-a2e7-b5d9f65bd476" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.5 : 5.51849609375); (7.40625 : 5.51849609375); (7.40625 : 6.625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DienTuDataContext/NguoiDung/NguoiDung_GioHang" />
+      <nodes>
+        <classShapeMoniker Id="bdb77efd-7de4-44d2-b5f2-66b7b6cb5b74" />
+        <classShapeMoniker Id="f3946d2c-47e7-4150-a2e7-b5d9f65bd476" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(0.59375 : 4.5); (0.59375 : 1.65625); (3.5 : 1.65625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DienTuDataContext/NguoiDung/NguoiDung_Help" />
+      <nodes>
+        <classShapeMoniker Id="bdb77efd-7de4-44d2-b5f2-66b7b6cb5b74" />
+        <classShapeMoniker Id="00d91837-bc5e-4a5e-aec3-99a37be7022f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 2.38064697265625); (3.5 : 2.38064697265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DienTuDataContext/PhongBan/PhongBan_Help" />
+      <nodes>
+        <classShapeMoniker Id="42b78b5c-5b5b-4d2f-978e-6913d8a32d06" />
+        <classShapeMoniker Id="00d91837-bc5e-4a5e-aec3-99a37be7022f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 3.28449625651042); (4.75 : 3.28449625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DienTuDataContext/PhongBan/PhongBan_NhanVien" />
+      <nodes>
+        <classShapeMoniker Id="42b78b5c-5b5b-4d2f-978e-6913d8a32d06" />
+        <classShapeMoniker Id="b3a55f49-7b0f-4542-877c-febeaad88d26" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

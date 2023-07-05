@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DIENTU" Class="DienTuDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=localhost;Initial Catalog=DIENTU;Integrated Security=True" SettingsObjectName="ADO_ver.Properties.Settings" SettingsPropertyName="DIENTUConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CungCap" Member="CungCaps">
+    <Type Name="CungCap">
+      <Column Name="NhaSX" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="QuanLy" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SDT" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="CungCap_SanPham" Member="SanPhams" ThisKey="NhaSX" OtherKey="NhaSX" Type="SanPham" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SanPham" Member="SanPhams">
+    <Type Name="SanPham">
+      <Column Name="MaSP" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TenSP" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Loai" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Spec" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="NhaSX" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SLKho" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="GiaTien" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="GiamGia" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="SanPham_GioHang" Member="GioHangs" ThisKey="MaSP" OtherKey="MaSP" Type="GioHang" />
+      <Association Name="CungCap_SanPham" Member="CungCap" ThisKey="NhaSX" OtherKey="NhaSX" Type="CungCap" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GioHang" Member="GioHangs">
+    <Type Name="GioHang">
+      <Column Name="UserName" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MaSP" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SL" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SumAll" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Association Name="SanPham_GioHang" Member="SanPham" ThisKey="MaSP" OtherKey="MaSP" Type="SanPham" IsForeignKey="true" />
+      <Association Name="NguoiDung_GioHang" Member="NguoiDung" ThisKey="UserName" OtherKey="User_Name" Type="NguoiDung" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Help" Member="Helps">
+    <Type Name="Help">
+      <Column Name="UserName" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="LinhVuc" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="INFO" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Association Name="NguoiDung_Help" Member="NguoiDung" ThisKey="UserName" OtherKey="User_Name" Type="NguoiDung" IsForeignKey="true" />
+      <Association Name="PhongBan_Help" Member="PhongBan" ThisKey="LinhVuc" OtherKey="TenPB" Type="PhongBan" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NguoiDung" Member="NguoiDungs">
+    <Type Name="NguoiDung">
+      <Column Name="Ho_Ten" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="User_Name" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Dia_Chi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Admin" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="NguoiDung_GioHang" Member="GioHangs" ThisKey="User_Name" OtherKey="UserName" Type="GioHang" />
+      <Association Name="NguoiDung_Help" Member="Helps" ThisKey="User_Name" OtherKey="UserName" Type="Help" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NhanVien" Member="NhanViens">
+    <Type Name="NhanVien">
+      <Column Name="MaNV" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TenNV" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SDT" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Roles" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="PhongBan_NhanVien" Member="PhongBan" ThisKey="Roles" OtherKey="TenPB" Type="PhongBan" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PhongBan" Member="PhongBans">
+    <Type Name="PhongBan">
+      <Column Name="TenPB" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MaNVQLY" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="PhongBan_Help" Member="Helps" ThisKey="TenPB" OtherKey="LinhVuc" Type="Help" />
+      <Association Name="PhongBan_NhanVien" Member="NhanViens" ThisKey="TenPB" OtherKey="Roles" Type="NhanVien" />
+    </Type>
+  </Table>
+</Database>
